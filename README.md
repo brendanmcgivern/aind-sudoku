@@ -1,5 +1,7 @@
 # Sudoku Solver
 
+![Example Sudoku Solver](resize-sudoku-solver.gif)
+
 In this project I built a Sudoku solving agent. It can solve any Sudoku puzzle including diagonal boards.  I implemented Depth First Search to traverse the tree of possibilities and called on several different strategies during this process. These strategies consisted of **only_choice()**, **eliminate()** and **naked_twins()**.
 
 ### only_choice()
